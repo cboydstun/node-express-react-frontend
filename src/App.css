@@ -1,0 +1,52 @@
+body {
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #66004d;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.register form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.register form label,
+.register form input {
+  margin: 0.5rem;
+}
+
+.login form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.login form label,
+.login form input {
+  margin: 0.5rem;
+}
