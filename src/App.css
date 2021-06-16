@@ -15,12 +15,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #66004d;
+  background-color: dodgerblue;
 }
 
 .header a {
   color: #fff;
   text-decoration: none;
+}
+
+.header button {
+  background-color: rebeccapurple;
+  margin: auto 0.25rem;
 }
 
 .register form {
@@ -37,6 +42,12 @@ body {
   margin: 0.5rem;
 }
 
+.register form .btn {
+  background-color: rebeccapurple;
+  border: none;
+  cursor: pointer;
+}
+
 .login form {
   display: flex;
   justify-content: center;
@@ -49,4 +60,10 @@ body {
 .login form label,
 .login form input {
   margin: 0.5rem;
+}
+
+.login form .btn {
+  background-color: rebeccapurple;
+  border: none;
+  cursor: pointer;
 }

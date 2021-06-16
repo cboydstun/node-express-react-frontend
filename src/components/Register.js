@@ -39,15 +39,16 @@ export default function Register () {
     return ( 
         <div className="register">
             <h2>Register</h2>
-            <br></br>
+
             {error && <ErrorNotice message={error} clearError={() => setError(undefined)} />}
+            
             <form onSubmit={submit}>
                 <label>Email: </label>
                 <input type="email" id="email" placeholder="Enter email" onChange={e => setEmail(e.target.value)}/>
                 <label>Password: </label>
                 <input type="password" id="password" placeholder="Enter password" onChange={e => setPassword(e.target.value)}/>
                 <input type="password" placeholder="Confirm password" onChange={e => setPasswordCheck(e.target.value)}/>
-                <label>Display name </label>
+                <label>Display name: </label>
                 <input type="text" id="dsplay-name" placeholder="Enter Display Name" onChange={e => setDisplayName(e.target.value)}/>
                 <input type="submit" value="Register" className="btn btn-primary" />
             </form>
